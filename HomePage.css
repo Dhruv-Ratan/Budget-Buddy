@@ -1,0 +1,52 @@
+/* HomePage.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e0f7e9; /* Light green background */
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: #2e7d32; /* Darker green for the heading */
+    text-align: center;
+    padding: 20px;
+}
+
+nav {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #2e7d32; /* Darker green for links */
+    font-size: 18px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #1b5e20; /* Even darker green for hover effect */
+}
+
+nav a:active {
+    color: #388e3c; /* Green shade for active links */
+}
+
+div {
+    margin: 0 auto;
+    max-width: 800px;
+    padding: 40px;
+    border-radius: 10px;
+    background-color: #ffffff; /* White background for the main container */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
